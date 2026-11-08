@@ -1,19 +1,12 @@
-¡Vamos! – Update Sprachtraining
+¡Vamos! – Version 1.2: Fairere Spracherkennung
 
-NEU: Trainingsmodus 🎤 Sprachtraining (Deutsch → Spanisch).
-- Deutsch anzeigen; spanisches Wort ins Mikrofon sprechen.
-- Browser-Spracherkennung auf Spanisch (es-ES).
-- Bis zu drei Erkennungsversuche, dann Lösung und Wiederholung.
-- Bei Berechtigungs- und Netzwerkfehlern werden keine Fehlerpunkte vergeben.
-- Die Sterne und der Lernstand funktionieren weiterhin.
+- Bekannter Chrome-Erkennungsfehler „duble“ wird bei „doble“ automatisch akzeptiert.
+- Bei ähnlich klingenden/geschriebenen Wörtern fragt die App jetzt nach: „Hast du das richtige Wort gesagt?“
+- Dann stehen „Noch einmal sprechen“, „Ja, richtig gesprochen“ und „Lösung anzeigen“ zur Verfügung.
+- Nach drei Erkennungsversuchen wird kein automatischer Fehler mehr vergeben: Es bleibt die Wahl zwischen Wiederholen und Lösung zeigen.
+- Andere echte Wörter werden nicht durch eine pauschale großzügige Autokorrektur akzeptiert.
+- Bestehende Multiple-Choice-Funktion und Lernstatistik bleiben bestehen.
 
-GITHUB PAGES – UPDATE
-1. Die ZIP-Datei entpacken.
-2. Alle ENTHALTENEN Dateien/Ordner im GitHub-Repository vamos-spanisch in das Hauptverzeichnis hochladen (bestehende Dateien überschreiben). Nicht den äußeren Ordner und nicht die ZIP hochladen.
-3. Änderungen committen. GitHub Pages aktualisiert die App.
-4. App auf dem Pixel 10 schließen und neu starten. Wenn noch die alte Version erscheint, Chrome/PWA erneut laden. Service Worker kann einen weiteren Aufruf benötigen.
+Installation: ZIP entpacken, INHALT (nicht ZIP oder äußeren Ordner) ins Hauptverzeichnis des GitHub-Repositories hochladen und bestehende Dateien überschreiben, Commit changes. Auf dem Handy neu öffnen. Der Service Worker verwendet eine neue Cache-Version. Lokaler Lernfortschritt bleibt bei gleicher Domain erhalten.
 
-ACHTUNG:
-Der Sprachmodus braucht eine unterstützte Browser-Spracherkennung, Mikrofonberechtigung sowie in Chrome meist Internet. Er vergleicht die erkannte Vokabel, beurteilt aber nicht die Lautqualität oder Betonung. Browser/Erkennungsdienst können sich irren. Für Tests Chrome auf Android nutzen.
-
-Der Lernfortschritt bleibt durch denselben lokalen Speicher-Schlüssel erhalten.
+Hinweis: Der Browser liefert lediglich eine Schätzung des gesprochenen Textes. Die manuelle Bestätigung ist eine Selbsteinschätzung und kein objektiver Aussprachetest.
