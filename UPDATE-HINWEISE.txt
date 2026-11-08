@@ -1,0 +1,19 @@
+¡Vamos! – Update Sprachtraining
+
+NEU: Trainingsmodus 🎤 Sprachtraining (Deutsch → Spanisch).
+- Deutsch anzeigen; spanisches Wort ins Mikrofon sprechen.
+- Browser-Spracherkennung auf Spanisch (es-ES).
+- Bis zu drei Erkennungsversuche, dann Lösung und Wiederholung.
+- Bei Berechtigungs- und Netzwerkfehlern werden keine Fehlerpunkte vergeben.
+- Die Sterne und der Lernstand funktionieren weiterhin.
+
+GITHUB PAGES – UPDATE
+1. Die ZIP-Datei entpacken.
+2. Alle ENTHALTENEN Dateien/Ordner im GitHub-Repository vamos-spanisch in das Hauptverzeichnis hochladen (bestehende Dateien überschreiben). Nicht den äußeren Ordner und nicht die ZIP hochladen.
+3. Änderungen committen. GitHub Pages aktualisiert die App.
+4. App auf dem Pixel 10 schließen und neu starten. Wenn noch die alte Version erscheint, Chrome/PWA erneut laden. Service Worker kann einen weiteren Aufruf benötigen.
+
+ACHTUNG:
+Der Sprachmodus braucht eine unterstützte Browser-Spracherkennung, Mikrofonberechtigung sowie in Chrome meist Internet. Er vergleicht die erkannte Vokabel, beurteilt aber nicht die Lautqualität oder Betonung. Browser/Erkennungsdienst können sich irren. Für Tests Chrome auf Android nutzen.
+
+Der Lernfortschritt bleibt durch denselben lokalen Speicher-Schlüssel erhalten.
