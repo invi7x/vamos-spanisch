@@ -1,12 +1,1 @@
-¡Vamos! – Version 1.2: Fairere Spracherkennung
-
-- Bekannter Chrome-Erkennungsfehler „duble“ wird bei „doble“ automatisch akzeptiert.
-- Bei ähnlich klingenden/geschriebenen Wörtern fragt die App jetzt nach: „Hast du das richtige Wort gesagt?“
-- Dann stehen „Noch einmal sprechen“, „Ja, richtig gesprochen“ und „Lösung anzeigen“ zur Verfügung.
-- Nach drei Erkennungsversuchen wird kein automatischer Fehler mehr vergeben: Es bleibt die Wahl zwischen Wiederholen und Lösung zeigen.
-- Andere echte Wörter werden nicht durch eine pauschale großzügige Autokorrektur akzeptiert.
-- Bestehende Multiple-Choice-Funktion und Lernstatistik bleiben bestehen.
-
-Installation: ZIP entpacken, INHALT (nicht ZIP oder äußeren Ordner) ins Hauptverzeichnis des GitHub-Repositories hochladen und bestehende Dateien überschreiben, Commit changes. Auf dem Handy neu öffnen. Der Service Worker verwendet eine neue Cache-Version. Lokaler Lernfortschritt bleibt bei gleicher Domain erhalten.
-
-Hinweis: Der Browser liefert lediglich eine Schätzung des gesprochenen Textes. Die manuelle Bestätigung ist eine Selbsteinschätzung und kein objektiver Aussprachetest.
+¡Vamos! – Version 1.3: Rückfrage auch bei längeren ähnlich erkannten Begriffen, z. B. „el padre“ → „el patro“. Keine automatische Anerkennung solcher Treffer; Selbstbestätigung erforderlich. Daten und bestehender Lernfortschritt bleiben erhalten. Dateien direkt ins GitHub-Hauptverzeichnis hochladen, danach GitHub Pages neu laden.
